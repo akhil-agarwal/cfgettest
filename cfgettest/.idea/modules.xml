@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cfgettest.iml" filepath="$PROJECT_DIR$/cfgettest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/cfgettest-application.iml" filepath="$PROJECT_DIR$/application/cfgettest-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integration-tests/cfgettest-integration-tests.iml" filepath="$PROJECT_DIR$/integration-tests/cfgettest-integration-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-tests/cfgettest-unit-tests.iml" filepath="$PROJECT_DIR$/unit-tests/cfgettest-unit-tests.iml" />
+    </modules>
+  </component>
+</project>

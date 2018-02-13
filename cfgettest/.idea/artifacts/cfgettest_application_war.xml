@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cfgettest-application:war">
+    <output-path>$PROJECT_DIR$/application/target</output-path>
+    <root id="archive" name="cfgettest-application.war">
+      <element id="artifact" artifact-name="cfgettest-application:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+---
+applications:
+- name: approuter
+  host: approuter-i023587
+  path: approuter
+  memory: 128M
+  buildpack: nodejs_buildpack
+  env:
+    TENANT_HOST_PATTERN: 'approuter-(.*).cfapps.sap.hana.ondemand.com'
+    destinations: '[{"name":"app-destination", "url" :"https://cfgettest-i023587-nonseditious-inconsequence.cfapps.sap.hana.ondemand.com", "forwardAuthToken": true}]'
+  services:
+    - my-xsuaa

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest" time="14.371" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/i023587/Development/cfgettest/cfgettest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/i023587/Development/cfgettest/cfgettest"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/y4/w4hwwmbs119f791n5kmmj6n9rlhk3l/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/i023587/Tools/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/i023587/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap"/>
+    <property name="user.home" value="/Users/i023587"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="i023587"/>
+    <property name="java.class.path" value="/Users/i023587/Tools/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="java.ext.dirs" value="/Users/i023587/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/i023587/Tools/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testService" classname="com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest" time="3.431">
+    <failure message="&#10;Expecting:&#10; &lt;&quot;com.sap.cloud.sdk.cloudplatform.connectivity.exception.DestinationNotFoundException: Destination &quot;Failed to get destination &quot;ErpQueryEndpoint&quot;. Have you mocked this destination?&quot; not found.&#10;	at com.sap.cloud.sdk.testutil.DefaultDestinationMocker.getDestinationAsType(DefaultDestinationMocker.java:49)&#10;	at com.sap.cloud.sdk.testutil.GetDestinationMockitoAnswer.answer(GetDestinationMockitoAnswer.java:21)&#10;	at com.sap.cloud.sdk.testutil.GetDestinationMockitoAnswer.answer(GetDestinationMockitoAnswer.java:10)&#10;	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:36)&#10;	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:95)&#10;	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)&#10;	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35)&#10;	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:65)&#10;	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:51)&#10;	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptAbstract(MockMethodInterceptor.java:153)&#10;	at com.sap.cloud.sdk.cloudplatform.connectivity.DestinationFacade$MockitoMock$447099857.getDestination(Unknown Source)&#10;	at com.sap.cloud.sdk.cloudplatform.connectivity.DestinationAccessor.getDestination(DestinationAccessor.java:162)&#10;	at com.sap.cloud.sdk.cloudplatform.connectivity.HttpClientAccessor.getHttpClient(HttpClientAccessor.java:69)&#10;	at com.sap.cloud.sdk.cfgettest.HelloWorldServlet.doGet(HelloWorldServlet.java:35)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)&#10;	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)&#10;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)&#10;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)&#10;	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter$1.execute(RequestContextServletFilter.java:215)&#10;	at com.sap.cloud.sdk.cloudplatform.servlet.Executable.call(Executable.java:19)&#10;	at com.sap.cloud.sdk.cloudplatform.servlet.Executable.call(Executable.java:9)&#10;	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextCallable.call(RequestContextCallable.java:78)&#10;	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter.doFilter(RequestContextServletFilter.java:217)&#10;	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)&#10;	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)&#10;	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)&#10;	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)&#10;	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)&#10;	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)&#10;	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)&#10;	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)&#10;	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)&#10;	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)&#10;	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)&#10;	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)&#10;	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)&#10;	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#10;	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#10;	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)&#10;	at java.lang.Thread.run(Thread.java:748)&#10;&quot;&gt;&#10;to be equal to:&#10; &lt;&quot;Hello World!&quot;&gt;&#10;ignoring case considerations" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <"com.sap.cloud.sdk.cloudplatform.connectivity.exception.DestinationNotFoundException: Destination "Failed to get destination "ErpQueryEndpoint". Have you mocked this destination?" not found.
+	at com.sap.cloud.sdk.testutil.DefaultDestinationMocker.getDestinationAsType(DefaultDestinationMocker.java:49)
+	at com.sap.cloud.sdk.testutil.GetDestinationMockitoAnswer.answer(GetDestinationMockitoAnswer.java:21)
+	at com.sap.cloud.sdk.testutil.GetDestinationMockitoAnswer.answer(GetDestinationMockitoAnswer.java:10)
+	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:36)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:95)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:65)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:51)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptAbstract(MockMethodInterceptor.java:153)
+	at com.sap.cloud.sdk.cloudplatform.connectivity.DestinationFacade$MockitoMock$447099857.getDestination(Unknown Source)
+	at com.sap.cloud.sdk.cloudplatform.connectivity.DestinationAccessor.getDestination(DestinationAccessor.java:162)
+	at com.sap.cloud.sdk.cloudplatform.connectivity.HttpClientAccessor.getHttpClient(HttpClientAccessor.java:69)
+	at com.sap.cloud.sdk.cfgettest.HelloWorldServlet.doGet(HelloWorldServlet.java:35)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter$1.execute(RequestContextServletFilter.java:215)
+	at com.sap.cloud.sdk.cloudplatform.servlet.Executable.call(Executable.java:19)
+	at com.sap.cloud.sdk.cloudplatform.servlet.Executable.call(Executable.java:9)
+	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextCallable.call(RequestContextCallable.java:78)
+	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter.doFilter(RequestContextServletFilter.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+">
+to be equal to:
+ <"Hello World!">
+ignoring case considerations
+	at com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest.testService(HelloWorldServiceTest.java:50)
+]]></failure>
+    <system-err><![CDATA[Feb 06, 2018 11:34:00 AM org.apache.tomee.embedded.Container start
+INFO: Starting TomEE from: /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-apache-tomee
+Feb 06, 2018 11:34:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-62303"]
+Feb 06, 2018 11:34:00 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Feb 06, 2018 11:34:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Feb 06, 2018 11:34:00 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-62303"]
+Feb 06, 2018 11:34:01 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Tue Feb 06 11:34:01 CET 2018
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.5
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20170927
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 12:02
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-apache-tomee
+Feb 06, 2018 11:34:01 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-apache-tomee
+Feb 06, 2018 11:34:01 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@51039ec9
+Feb 06, 2018 11:34:01 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Feb 06, 2018 11:34:02 AM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-apache-tomee/conf/openejb.xml'
+Feb 06, 2018 11:34:02 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Feb 06, 2018 11:34:02 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Feb 06, 2018 11:34:02 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+Feb 06, 2018 11:34:02 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+Feb 06, 2018 11:34:02 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Feb 06, 2018 11:34:02 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Feb 06, 2018 11:34:02 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.servicemanager.enabled=false'
+Feb 06, 2018 11:34:03 AM com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory$CloudLogger info
+INFO: Successfully invalidated 0 entries in 0 caches.
+Feb 06, 2018 11:34:03 AM com.netflix.config.sources.URLConfigurationSource <init>
+WARNING: No URLs will be polled as dynamic configuration sources.
+Feb 06, 2018 11:34:03 AM com.netflix.config.sources.URLConfigurationSource <init>
+INFO: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Feb 06, 2018 11:34:04 AM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-tomee-app-working-dir/0/3e9eb7d1-d093-4f35-89fd-04f5568bd681.war
+Feb 06, 2018 11:34:04 AM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-tomee-app-working-dir/0/3e9eb7d1-d093-4f35-89fd-04f5568bd681
+Feb 06, 2018 11:34:04 AM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+Feb 06, 2018 11:34:04 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /3e9eb7d1-d093-4f35-89fd-04f5568bd681
+Feb 06, 2018 11:34:04 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-tomee-app-working-dir/0/3e9eb7d1-d093-4f35-89fd-04f5568bd681
+Feb 06, 2018 11:34:05 AM com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory$CloudLogger info
+INFO: Successfully invalidated 0 entries in 0 caches.
+Feb 06, 2018 11:34:05 AM com.netflix.config.sources.URLConfigurationSource <init>
+WARNING: No URLs will be polled as dynamic configuration sources.
+Feb 06, 2018 11:34:05 AM com.netflix.config.sources.URLConfigurationSource <init>
+INFO: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Feb 06, 2018 11:34:05 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+Feb 06, 2018 11:34:05 AM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean 3e9eb7d1-d093-4f35-89fd-04f5568bd681_com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest: Container(type=MANAGED, id=Default Managed Container)
+Feb 06, 2018 11:34:05 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+Feb 06, 2018 11:34:05 AM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1 for stateful session passivation
+Feb 06, 2018 11:34:05 AM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-tomee-app-working-dir/0/3e9eb7d1-d093-4f35-89fd-04f5568bd681" loaded.
+Feb 06, 2018 11:34:05 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-tomee-app-working-dir/0/3e9eb7d1-d093-4f35-89fd-04f5568bd681
+Feb 06, 2018 11:34:05 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@51039ec9
+Feb 06, 2018 11:34:06 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Feb 06, 2018 11:34:06 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Feb 06, 2018 11:34:06 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Feb 06, 2018 11:34:06 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Feb 06, 2018 11:34:06 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 224 ms.
+Feb 06, 2018 11:34:06 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/Users/i023587/Development/cfgettest/cfgettest/integration-tests/target/arquillian-working-dir/1/arquillian-tomee-app-working-dir/0/3e9eb7d1-d093-4f35-89fd-04f5568bd681)
+Feb 06, 2018 11:34:07 AM com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory$CloudLogger info
+INFO: Successfully added default listener: com.sap.cloud.sdk.cloudplatform.connectivity.DestinationsRequestContextListener.
+Feb 06, 2018 11:34:07 AM com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory$CloudLogger info
+INFO: Successfully added default listener: com.sap.cloud.sdk.cloudplatform.tenant.TenantRequestContextListener.
+Feb 06, 2018 11:34:07 AM com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory$CloudLogger info
+INFO: Successfully added default listener: com.sap.cloud.sdk.cloudplatform.security.user.UserRequestContextListener.
+Feb 06, 2018 11:34:07 AM com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory$CloudLogger info
+INFO: No RequestContextFactory configured. Falling back to DefaultRequestContextFactory.
+Feb 06, 2018 11:34:12 AM com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+</testsuite>

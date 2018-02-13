@@ -1,0 +1,73 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cfgettest-application:war exploded">
+    <output-path>$PROJECT_DIR$/application/target/cfgettest-application</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cfgettest-application" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:scp-cf:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:auditlog-scp-cf:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:core:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:auditlog:1.9.0" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:caching:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:security:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:tenant:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:core-scp-cf:1.9.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+          <element id="library" level="project" name="Maven: com.mikesamuel:json-sanitizer:1.2.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:connectivity-scp-cf:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:connectivity:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.frameworks:hystrix:1.9.0" />
+          <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.8" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.9" />
+          <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" />
+          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:security-scp-cf:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:servlet:1.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.3" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:tenant-scp-cf:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.cloudplatform:metering:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:s4hana-all:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:core:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:fluent-result:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:connectivity:1.9.0" />
+          <element id="library" level="project" name="Maven: io.reactivex:rxjava:1.2.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:datamodel:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.datamodel:bapi-api:1.9.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.datamodel:odata-core:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.servicesdk:odata-v2-lib:1.10.2" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.servicesdk:developer_license:1.10.2" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.11.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-text:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.datamodel:odata-api:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:rfc:1.9.0" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana.quality:common:1.9.0" />
+          <element id="library" level="project" name="Maven: org.json:json:20170516" />
+          <element id="library" level="project" name="Maven: com.netflix.archaius:archaius-core:0.4.1" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.s4hana:signing:1.9.0" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.58" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.58" />
+          <element id="library" level="project" name="Maven: com.sap.cloud.servicesdk:odatav2-connectivity:1.10.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.3" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.6" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:1.4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/application/target/cfgettest-application/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cfgettest-application/web/Web" />
+    </root>
+  </artifact>
+</component>

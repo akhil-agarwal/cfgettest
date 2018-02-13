@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.371 s <<< FAILURE! - in com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest
+testService(com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest)  Time elapsed: 3.431 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting:
+ <"com.sap.cloud.sdk.cloudplatform.connectivity.exception.DestinationNotFoundException: Destination "Failed to get destination "ErpQueryEndpoint". Have you mocked this destination?" not found.
+	at com.sap.cloud.sdk.testutil.DefaultDestinationMocker.getDestinationAsType(DefaultDestinationMocker.java:49)
+	at com.sap.cloud.sdk.testutil.GetDestinationMockitoAnswer.answer(GetDestinationMockitoAnswer.java:21)
+	at com.sap.cloud.sdk.testutil.GetDestinationMockitoAnswer.answer(GetDestinationMockitoAnswer.java:10)
+	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:36)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:95)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:65)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:51)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptAbstract(MockMethodInterceptor.java:153)
+	at com.sap.cloud.sdk.cloudplatform.connectivity.DestinationFacade$MockitoMock$447099857.getDestination(Unknown Source)
+	at com.sap.cloud.sdk.cloudplatform.connectivity.DestinationAccessor.getDestination(DestinationAccessor.java:162)
+	at com.sap.cloud.sdk.cloudplatform.connectivity.HttpClientAccessor.getHttpClient(HttpClientAccessor.java:69)
+	at com.sap.cloud.sdk.cfgettest.HelloWorldServlet.doGet(HelloWorldServlet.java:35)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter$1.execute(RequestContextServletFilter.java:215)
+	at com.sap.cloud.sdk.cloudplatform.servlet.Executable.call(Executable.java:19)
+	at com.sap.cloud.sdk.cloudplatform.servlet.Executable.call(Executable.java:9)
+	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextCallable.call(RequestContextCallable.java:78)
+	at com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter.doFilter(RequestContextServletFilter.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+">
+to be equal to:
+ <"Hello World!">
+ignoring case considerations
+	at com.sap.cloud.sdk.cfgettest.HelloWorldServiceTest.testService(HelloWorldServiceTest.java:50)
+
